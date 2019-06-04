@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;strings.SubString&apos; to &apos;SubStringProgram&apos;&#x0A;- Original project: &apos;Algorithms&apos;&#x0A;- Original element: &apos;strings.SubString&apos;&#x0A;- Renamed element: &apos;strings.SubStringProgram&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SubString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;strings{SubString.java[SubString" matchStrategy="1" name="SubStringProgram" qualified="false" references="true" similarDeclarations="false" stamp="1523079126835" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+package linkList;
+
+
+public class ReverseLinkList {
+
+  class Node {
+	 int data;
+	 Node next;
+	 public Node(int data) {
+		 this.data = data;
+		 this.next = null;
+	 } 
+  }
+	
+  public static void main(String[] args) {
+	 ReverseLinkList reverseLinkList = new ReverseLinkList();
+	 
+  }
+  
+  public void reverseLinkList(final Node node) {
+	  Node current = node;
+	  Node prev = null;
+	  Node next = null;
+	  
+	  while(current != null) {
+		  next = current.next;
+		  current.next = prev;
+		  prev = current;
+		  current = next;
+	  }
+  }
+	
+}
